@@ -1,0 +1,20 @@
+{
+  "name": "example.site",
+  "version": "0.1.0",
+  "description": "Sample site",
+  "author": "Fernando Berti <me@fberti.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "reblog dev",
+    "build": "reblog build"
+  },
+  "devDependencies": {
+    "reblog": "file:../",
+    "@tailwindcss/typography": "^0.5.9",
+    "@tsconfig/node-lts": "^18.12.3",
+    "clsx": "^2.0.0",
+    "dayjs": "^1.11.9",
+    "lucide-react": "^0.263.1"
+  }
+}
